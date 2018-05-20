@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        main: './src/main.js'
+        main: './src//detail-page/main.js'
     },
     output: {
         path: __dirname + '/dist',
@@ -11,7 +11,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: ['./dist', './src'],
+        contentBase: ['./dist', './src/detail-page'],
         port: 3007,
         host: 'localhost'
     },
@@ -66,7 +66,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'Webpack Example',
-            template: './src/index.html'
+            template: './src/detail-page/index.html'
         }),
     ]
 };

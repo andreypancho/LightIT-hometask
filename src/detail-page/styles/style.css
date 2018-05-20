@@ -1,0 +1,149 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body {
+  background: #ffffff; }
+
+header {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center; }
+  header .header-logo {
+    margin-right: 120px;
+    margin-left: 50px; }
+  header .header-search {
+    width: 450px; }
+    header .header-search .fa-search {
+      color: black;
+      margin-left: 6px;
+      margin-bottom: 7px; }
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #00b3be;
+  font-size: 16px;
+  color: white;
+  height: 59px;
+  width: 383px; }
+  .user-menu .user-icon {
+    margin: 0 5px 0 25px; }
+  .user-menu .user-name {
+    font-family: Arial;
+    margin-left: 5px;
+    margin-right: 175px; }
+  .user-menu .logout {
+    font-size: 26px; }
+
+.content {
+  display: flex; }
+  .content .slider-img {
+    max-width: 50%; }
+    .content .slider-img img {
+      width: 100%; }
+  .content .about {
+    max-width: 50%;
+    padding-left: 16px; }
+    .content .about .about--title {
+      font-size: 32px;
+      font-family: "Myriad Pro";
+      color: #000000; }
+    .content .about .about--link-profile {
+      font-family: "Arial - Bold MT";
+      font-size: 18px;
+      color: #4a4a4a; }
+      .content .about .about--link-profile a {
+        color: #00b3be; }
+    .content .about .about--line-height {
+      line-height: 0; }
+    .content .about .price {
+      color: #91d763;
+      font-size: 32px; }
+
+.chat--contact--link {
+  color: #4a4a4a;
+  font-family: "Arial - Bold MT";
+  font-size: 30px; }
+  .chat--contact--link span {
+    font-size: 14px; }
+    .chat--contact--link span a {
+      color: #00b3be; }
+
+.chat {
+  display: flex; }
+  .chat .chat--messager {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 250px;
+    max-width: 50%;
+    flex-grow: 1; }
+    .chat .chat--messager .chat--message--in {
+      margin-right: 12px;
+      display: flex;
+      align-self: flex-end;
+      max-width: 400px;
+      border-left: solid 5px #00b3be;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+      .chat .chat--messager .chat--message--in .chat--message--in--message {
+        color: #4a4a4a;
+        font-family: "Arial MT";
+        font-size: 14px;
+        padding-left: 6px;
+        margin-right: 12px; }
+      .chat .chat--messager .chat--message--in .chat--message--in--profile img {
+        width: 25px; }
+    .chat .chat--messager .chat--message--out {
+      margin-right: 12px;
+      display: flex;
+      align-self: flex-start;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      max-width: 400px;
+      border-right: solid 5px #00b3be; }
+      .chat .chat--messager .chat--message--out .chat--message--out--message {
+        color: #4a4a4a;
+        font-family: "Arial MT";
+        font-size: 14px;
+        padding-left: 6px;
+        margin-right: 12px; }
+      .chat .chat--messager .chat--message--out .chat--message--out--profile img {
+        width: 25px; }
+    .chat .chat--messager input {
+      position: relative; }
+    .chat .chat--messager label {
+      color: #4a4a4a;
+      font-family: "Arial MT";
+      font-size: 12px; }
+    .chat .chat--messager .fa-paper-plane {
+      position: absolute;
+      bottom: 15px;
+      right: 5px; }
+  .chat .chat--connected-members {
+    flex-grow: 1; }
+    .chat .chat--connected-members .chat--title {
+      color: #4a4a4a;
+      font-family: "Arial - Bold MT";
+      font-size: 18px; }
+    .chat .chat--connected-members .chat--member-wrapper {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      color: #4a4a4a; }
+      .chat .chat--connected-members .chat--member-wrapper img {
+        margin-right: 11px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        margin-left: 2px; }
+
+footer {
+  font-size: 18px;
+  color: white;
+  background: #00b3be;
+  font-family: Arial;
+  text-align: center;
+  padding: 20px 0; }
+
+/*# sourceMappingURL=style.css.map */
