@@ -1,0 +1,89 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+  background: #ffffff;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  .header-logo {
+    margin-right: 120px;
+    margin-left: 50px;
+  }
+  .header-search {
+    width: 450px;
+    .fa-search {
+      color: black;
+      margin-left: 6px;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #00b3be;
+  font-size: 16px;
+  color: white;
+  height: 59px;
+  width: 383px;
+  .user-icon {
+    margin: 0 5px 0 25px;
+  }
+  .user-name {
+    font-family: Arial;
+    margin-left: 5px;
+    margin-right: 175px;
+  }
+  .logout {
+    font-size: 26px;
+  }
+}
+.product-list{
+  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .product-item-container{
+    width: 323px;
+    margin: 10px 0;
+    background: #00b3be;
+    .product-item-img{
+      width: 323px;
+      height: 202px;
+      img{
+        width: 100%;
+      }
+    }
+    .product-item-detail{
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      color: #ffffff;
+      font-family: "Arial - Bold MT";
+      font-size: 18px;
+      a{
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+
+
+
+footer {
+  font-size: 18px;
+  color: white;
+  background: #00b3be;
+  font-family: Arial;
+  text-align: center;
+  padding: 20px 0;
+}
